@@ -1,0 +1,139 @@
+@media (max-width:768px){
+    body {
+        background-color:rgb(194, 193, 193);
+        background:rgba(136, 134, 134, 0.4);
+    }
+    
+.img{
+    display: none;
+}
+.imagen{
+    top:180px;
+    left:420px;
+    width:250px;
+    height: 300px;   
+    background-size: 250px 300px ;
+    box-shadow: 2px 2px 8px;
+}
+.menu{
+    width: 97vw;
+    border-bottom: solid;
+    background-attachment: fixed; 
+    text-align: center;
+     margin:auto;
+     margin-left: 0;
+     margin-top: 20px;
+     margin-bottom: 0px;
+    box-sizing: border-box;
+    
+     
+}
+.menu li{
+border:solid;
+border-radius: 10px;
+border-color:white;
+}
+.menu li a{
+    
+    font-size: 18px;
+    color:rgb(228, 46, 46);
+    -webkit-transition: none;
+    transition: none;
+}
+.menu a:hover{
+    font-size:18px;
+}
+.menu a:active{
+    color: grey;
+}
+.social-media li a:hover{
+    border:none;
+}
+
+.description{
+position:static;
+margin-top:500px;
+margin-bottom:0px;
+}
+resume h1{
+    font-size:40px;
+    border:none;
+    margin-left: -450px;
+    top:-400px;
+}
+.ocupation{
+    
+    left: 30px;
+    top:355px;
+    color:white;
+    
+}
+
+
+.icon{
+     /* position:static;  */
+    color: rgb(0, 0, 0);
+    margin: auto;
+    top: 200px;
+    left:90vw;
+}
+.social-media{
+    
+    list-style:none;
+    left: 350px;
+    top: -260px;
+}
+footer{
+    background-image: url(../img/building.jpg);
+    background-size:100% ;
+    z-index:  -2;
+}
+
+}
+@media (max-width:430px){
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .menu{
+        width:100%;
+        background-image: url(../img/city\ architecture.jpg);
+        background-size: 100% 80%;
+    }
+    .menu li{
+        border:none;
+    }
+    .menu li a{
+        color: rgb(255, 0, 0);
+    }
+    resume h1{
+      
+        margin: auto;
+        left: 5px;
+        top:-240px;
+    }
+    .ocupation{
+        margin: auto;
+        left: 35px;
+        top:480px;
+        border:none;
+    }
+    .imagen{
+        display:none;
+    }
+    .description{
+        width: 100%;
+        
+    }
+    .social-media{
+        top :-20rem;
+        left: 18rem;
+    }
+    .icon{
+        top:40px;
+    }
+
+    footer{
+        width:100%;
+        
+    }
+}

@@ -1,0 +1,77 @@
+/* 
+@media screen and (min-width: 320px) and (max-width:425px){
+	.imagen{
+        display:none;
+    }
+    body{
+        background-color:red;
+    }
+}
+
+@media screen and  (max-width: 768px) {
+ 
+  
+
+
+} */
+
+
+@media (max-width: 768px) {
+    body{
+        background-image: url(../img/G63.jpg);
+        background-size : 100vw 100vh;
+    }
+    form{
+        width:100% 
+    }
+    h1{
+        color:red;
+        font-family: monospace;
+    }
+    #Button{
+        font-size:15px;
+    }
+    form{
+        width: 400px;
+        margin:auto;
+        background:rgba(211, 210, 210, 0.4);
+        padding:10px 20px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+    input,textarea{
+        width:100%;
+        margin-bottom: 20px;
+        padding:7px;
+        box-sizing: border-box;
+        border:none;
+    }
+    
+}
+@media (max-width :425px) {
+    body{
+        background-image: url(../img/G63.jpg);
+        background-size : 100vw 100vh;
+    }
+    form{
+        width:100% 
+    }
+    h1{
+        font-size:20px;
+        color:rgb(253, 101, 0);
+        font-family: monospace;
+    }
+    #Button{
+        font-size:10px;
+    }
+    form{
+        width: 300px;
+        margin:auto;
+        background:rgba(211, 210, 210, 0.4);
+        padding:10px 20px;
+        box-sizing: border-box;
+        margin-top: 100px;
+    }
+}
+
+

@@ -1,0 +1,177 @@
+body{
+    /* flex-wrap: wrap; */
+  background-color:rgb(255, 255, 255);
+}
+*{
+    font-size:19px;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
+
+.menu{
+   border:none ;
+    position:absolute;
+    width:50vw;
+    top:0;
+    /* background-color:rgb(194, 51, 51); */
+    list-style:none;
+    padding:15px;
+    margin-bottom: 10px;
+
+}
+.menu li a {
+    /* position: absolute; */
+    font-family: 'Bodoni Moda', serif;
+     border:none;
+      border-color:rgb(243, 22, 6);
+     display:block;
+    color: rgb(197, 110, 110);
+    /* background-color:tomato; */
+    padding:15px;
+    -webkit-transition: font-size 0.2s ease;
+     transition: font-size 0.5s ease;
+
+}
+.menu li {
+    display:inline-block;
+    border:none;
+    height:auto;
+    width:auto;
+    border-radius: 10px;
+     border-color:rgb(246, 145, 145);
+    margin-left:7%;
+}
+.menu a:hover{
+
+    /* background-color:rgb(255, 255, 255); */
+    font-size: 25px;
+    /* transition:all 0.5s ease-in;
+    transition:all cubic-bezier(0.215, 0.610, 0.355, 1) */
+
+}
+.menu a:active{
+    color: rgb(185, 185, 185);
+}
+  .img{
+    position: relative;
+    display: inline-block;
+    border:none;
+    border-radius: 10px;
+    /* border-color:rgb(0, 0, 0); */
+    /* background-color:rgb(0, 0, 0); */
+    height:400px;
+    width:290px;
+    top:5rem;
+    left:0rem;
+    padding:20px;
+     /* overflow: hidden;  */
+}  
+.img-white{
+position: relative;
+border: none;
+height:400px;
+width:290px;
+border-radius: 10px;
+background-image: url(../img/sid.jpg); 
+background-size: 290px 400px; 
+box-shadow: 2px 2px 5px;
+
+}
+
+.imagen{
+    /* display: inline-block; */
+    position: absolute;
+    left:53vw;
+    top: 0rem;
+    height:720px;
+    width:705px;
+    border:none;
+    border-color: rgb(199, 29, 29);
+    background-image: url(../img/descargar.jpg);
+    background-size: 705px 720px ;
+     z-index: -2; 
+}
+resume h1{
+    position: relative;
+    display: inline-block;
+    font-size: 55px;
+    border:none;
+    left: 24rem;
+    top:-18rem;
+    padding:5px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+}
+.icon{
+    position:relative;
+    display: inline-block;
+    left: 55vw;
+    top:0rem;
+  
+}
+.ocupation{
+    position:relative;
+    display: inline-block;
+    border-top:solid;
+    color: rgb(138, 138, 138);
+    top:-2.5rem;
+    left:8rem;
+
+}
+
+.description{
+    position: relative;
+    border-top:solid;
+    top:8rem;
+    height:4rem;
+    width:50vw;
+    margin-left: 15px;
+    margin-right:50vw;
+    padding-top:15px;
+    left: 10px;
+    
+}
+ .info{
+    font-family: 'Patua One', cursive;
+    border:none;
+    border-color:none;
+    color: rgb(82, 81, 81);
+    height: auto;
+    width:auto;
+    text-align: justify;
+    top:-50px;
+    
+    
+    
+
+} 
+contact p{
+    border:solid;
+}
+
+
+.social-media{
+   
+    position: relative;
+    display: inline-block;
+    list-style:armenian;
+    top:-28rem;
+    left: 18rem;
+    
+    
+}
+.social-media li a{    
+    padding-left:2px;
+}
+.social-media li{
+    margin:15px;
+}
+.social-media li a:hover{
+    border-left:solid;
+    border-color:rgb(197, 110, 110) ;
+    transition: all 0.05s ease;
+
+}
+

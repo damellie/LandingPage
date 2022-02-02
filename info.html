@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/mediaqueries.css">
+    <title>Information</title>
+
+</head>
+<style>
+    body{
+        background-image: url(./img/G63.jpg);
+        background-size : 50vw 100vh;
+        background-attachment: fixed; 
+    }
+    form{
+        width: 1200px;
+        margin:auto;
+        background:rgba(211, 210, 210, 0.4);
+        padding:10px 20px;
+        box-sizing: border-box;
+        margin-top: 50px;
+    }
+    h1{
+        text-align:center;
+        
+    }
+    
+    input,textarea{
+        width:100%;
+        margin-bottom: 20px;
+        padding:7px;
+        box-sizing: border-box;
+        border:none;
+    }
+    textarea {
+        min-height:100px;
+        max-height: 200px;
+        max-width: 100%;
+    }
+    #Button{
+        font-size:20px;
+        background:rgba(211, 210, 210, 0.4);
+    }
+    #Button:hover{
+        cursor:pointer
+    }
+    #Button:active{
+        color:rgb(102, 101, 101);
+    }
+</style>
+<body>
+    
+    <form action="">
+       <h1>CONTACT</h1>
+       <input type="text" name="Name" placeholder="Name">
+       <input type="text" name="e-mail" placeholder="e-mail">
+       <input type="text" name="Telephone number" placeholder="Telephone number">
+       <textarea name="message" placeholder="Write here"></textarea>
+       <input type="button" value="Send" id="Button">
+    </form>
+
+</body>
+</html>
